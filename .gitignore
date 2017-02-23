@@ -1,0 +1,22 @@
+# Build results
+
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+[Bb]in/
+[Oo]bj/
+
+# Windows Store app package directory
+AppPackages/
+
+# User-specific files
+*.suo
+*.user
+
+
+*.tmp
+*.log
+
+# Windows Store app package directory
+AppPackages/
