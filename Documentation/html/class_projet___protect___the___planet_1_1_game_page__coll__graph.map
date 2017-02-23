@@ -1,0 +1,7 @@
+<map id="Projet_Protect_The_Planet.GamePage" name="Projet_Protect_The_Planet.GamePage">
+<area shape="rect" id="node3" href="$class_projet___protect___the___planet_1_1_moteur_menace.html" title="La classe moteur menace regroupe les methode permettant la création, la configuration et l&#39;animation ..." alt="" coords="81,448,237,643"/>
+<area shape="rect" id="node4" href="$class_projet___protect___the___planet_1_1_menace.html" title="Classe permettant de créer et de configurer une mencace (visuel, vitesse, nom, etc) ..." alt="" coords="42,169,175,363"/>
+<area shape="rect" id="node5" href="$class_projet___protect___the___planet_1_1_gerer_score.html" title="Classe permettant de gerer le score du joueur " alt="" coords="209,147,345,385"/>
+<area shape="rect" id="node6" href="$class_projet___protect___the___planet_1_1_moteur_planete.html" title="Cette classe permet de créer et de configurer la planète dont le nom est sauvegardé dans les paramètr..." alt="" coords="382,485,537,606"/>
+<area shape="rect" id="node7" href="$class_projet___protect___the___planet_1_1_planetes.html" title="Collection de planètes " alt="" coords="393,220,526,312"/>
+</map>

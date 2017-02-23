@@ -1,0 +1,6 @@
+<map id="Projet_Protect_The_Planet.GamePage.genererNouvellePlanete" name="Projet_Protect_The_Planet.GamePage.genererNouvellePlanete">
+<area shape="rect" id="node2" href="$class_projet___protect___the___planet_1_1_moteur_planete.html#a3155262ade7bc779a87cc076920df9ba" title="Création d&#39;une nouvelle planète selon les paramètres " alt="" coords="298,13,485,54"/>
+<area shape="rect" id="node4" href="$class_projet___protect___the___planet_1_1_game_page.html#a353d2eebcfed4da038b170909256c7ce" title="Permet de récupérer la largeur actuelle de la fenêtre " alt="" coords="291,79,491,135"/>
+<area shape="rect" id="node5" href="$class_projet___protect___the___planet_1_1_moteur_planete.html#a01a1ee5ebcb02693dfa09ac01cb18e3e" title="Configuration de la planète : " alt="" coords="284,159,499,201"/>
+<area shape="rect" id="node3" href="$class_projet___protect___the___planet_1_1_moteur_planete.html#abf996ad9bf6fd55ad9f641f6fdd8d426" title="Récupère le nom de planète sélectionné dans les paramètres " alt="" coords="547,5,773,61"/>
+</map>

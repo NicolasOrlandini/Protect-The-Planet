@@ -1,0 +1,5 @@
+<map id="Projet_Protect_The_Planet.MoteurMenace.configurer" name="Projet_Protect_The_Planet.MoteurMenace.configurer">
+<area shape="rect" id="node2" href="$class_projet___protect___the___planet_1_1_moteur_menace.html#a1de5723b59b03ced8ec1ecded8c236a2" title="Permet de définir la position de départ de la menace dans la fenêtre de jeu " alt="" coords="269,5,495,61"/>
+<area shape="rect" id="node3" href="$class_projet___protect___the___planet_1_1_moteur_menace.html#a3f86ff7207ee01359eb9f2d5c0bdefcc" title="Permet de paramétrer la position XY sur le plan vers laquelle l&#39;objet doit se déplacer ..." alt="" coords="269,85,495,141"/>
+<area shape="rect" id="node4" href="$class_projet___protect___the___planet_1_1_moteur_menace.html#a54529c4dc1fd8c28e7e01d2644e7fb72" title="Création et lancement du storyboard permettant d&#39;animer un objet passé en paramètre. " alt="" coords="283,165,481,221"/>
+</map>

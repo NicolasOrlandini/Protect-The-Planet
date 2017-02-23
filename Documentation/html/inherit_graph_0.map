@@ -1,0 +1,8 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="node2" href="$class_projet___protect___the___planet_1_1_about_page.html" title="Page A propos contient le nom, la version et les développeurs " alt="" coords="112,5,247,47"/>
+<area shape="rect" id="node3" href="$class_projet___protect___the___planet_1_1_accueil_page.html" title="Page d&#39;accueil contient le titre ainsi que le bouton Jouer pour accéder au jeu Contient une animation..." alt="" coords="108,71,251,112"/>
+<area shape="rect" id="node4" href="$class_projet___protect___the___planet_1_1_game_page.html" title="Page de jeu " alt="" coords="112,136,247,177"/>
+<area shape="rect" id="node5" href="$class_projet___protect___the___planet_1_1_main_page.html" title="Page contenant le menu hamburger (SplitView) " alt="" coords="113,201,246,243"/>
+<area shape="rect" id="node6" href="$class_projet___protect___the___planet_1_1_scores_page.html" title="Page contenant les scores des joueurs " alt="" coords="109,267,250,308"/>
+<area shape="rect" id="node7" href="$class_projet___protect___the___planet_1_1_settings_page.html" title="Page des paramètres permettant de gérer les paramètres du jeu " alt="" coords="105,332,253,373"/>
+</map>
