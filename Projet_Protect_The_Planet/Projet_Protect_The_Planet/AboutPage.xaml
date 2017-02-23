@@ -1,0 +1,49 @@
+﻿<Page
+    x:Class="Projet_Protect_The_Planet.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Projet_Protect_The_Planet"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <ScrollViewer>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="1" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="txtTitre.FontSize" Value="35" />
+                        <Setter Target="txtVersion.FontSize" Value="18" />
+                        <Setter Target="txtDeveloppeur.FontSize" Value="18" />
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="720" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <StackPanel x:Name="panel" Background="LightGray">
+            <TextBlock x:Name="txtTitre" TextWrapping="Wrap" FontSize="72" Margin="0" HorizontalAlignment="Center" FontFamily="Calibri" FontWeight="Bold">
+                <Run Text="Protect The Planet"/>
+                <LineBreak/>
+            </TextBlock>
+            <TextBlock x:Name="txtVersion" TextWrapping="Wrap" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" Text="111&#xD;&#xA;"/>
+            <TextBlock x:Name="txtDeveloppeur" TextWrapping="Wrap"
+                       FontSize="48" HorizontalAlignment="Center" TextAlignment="Center" FontFamily="Calibri">
+                <Run Text="Développée par "/>
+                <LineBreak/>
+                <Run Text="Orlandini Nicolas"/>
+                <Run Text=" "/>
+                <Run Text="(nicolas.orlandini@outlook.fr)"/>
+                <LineBreak/>
+                <Run Text="Maciolek Sebastian (se.ba95@icloud.com)"/>
+            </TextBlock>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="Projet_Protect_The_Planet.ScoresPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Projet_Protect_The_Planet"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <StackPanel Background="LightGray">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowHeight="1" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="lbListeScores.Height" Value="150" />
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowHeight="650" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="lbListeScores.Height" Value="500" />
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <CommandBar Name="Command" Background="WhiteSmoke" Opacity="0.8">
+            <AppBarButton x:Name="CommandDelete" Icon="Delete" Click="CommandDelete_Click" Label="Supprimer les scores" Background="#FFEA2F2F" Foreground="White"/>
+        </CommandBar>
+        <TextBlock x:Name="txtTitreScores" TextWrapping="Wrap" Text="Scores" FontSize="72" Margin="10,0,0,0"/>
+        <ListBox x:Name="lbListeScores" Margin="20,20,20,20" Background="White"  ScrollViewer.VerticalScrollBarVisibility="Visible" ItemsSource="{Binding Mode=TwoWay}" DisplayMemberPath="joueur" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" FontFamily="Calibri" Height="300"/>
+
+    </StackPanel>
+</Page>
