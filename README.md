@@ -27,13 +27,17 @@ Application développée en UWP (Universal Windows Platform) totalement responsi
 
 ### Page d'accueil
   
+  ![Page Accueil](/Images/Accueil.png "Page d'accueil du jeu")
+  
   * Menu hamburger
   * Animation sans storyboard
 
 Trajectoire d'un objet Ellipse en cercle avec un timer de 20 ms entre chaque position pour imiter la rotation d'un satellite autour d'une planète.
 
 ### Page de jeu
-  
+
+  ![Page Jeu](/Images/Jeu.png "Page contenant le jeu")
+    
   * CommandBar : Option Pause, recomencer une partie et activer/désactiver le son
   * ProgressBar : Barre de vie
   * Animations avec Storyboard
@@ -43,9 +47,11 @@ Trajectoire d'un objet Ellipse en cercle avec un timer de 20 ms entre chaque pos
   
 ### Scores
   
+  ![Page Scores](/Images/Scores.png  "Page des scores")
+  
   * ComandBar : Suppression des scores
   * ListBox : Affichage de la liste des scores dans une ListBox
-    Utilisation du Binding
+  * Utilisation du Binding
     
     XAML
     
