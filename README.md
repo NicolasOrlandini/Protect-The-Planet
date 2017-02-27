@@ -1,6 +1,9 @@
 # Protect-The-Planet
 
-Projet Protect The Planet en UWP (C#/XAML) - LP SIL DAM - 2016-2017
+Projet Protect The Planet en UWP (C#/XAML) - LP SIL DAM
+
+Novembre 2016 - Janvier 2017
+
 Version 1.0.1
 
 ## Contexte du projet 
