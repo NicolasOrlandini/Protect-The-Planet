@@ -7,8 +7,6 @@ build/
 [Bb]in/
 [Oo]bj/
 
-# Windows Store app package directory
-AppPackages/
 
 # User-specific files
 *.suo
@@ -17,6 +15,3 @@ AppPackages/
 
 *.tmp
 *.log
-
-# Windows Store app package directory
-AppPackages/

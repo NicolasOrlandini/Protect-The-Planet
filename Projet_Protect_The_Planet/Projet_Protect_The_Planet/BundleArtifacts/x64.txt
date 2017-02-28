@@ -1,2 +1,2 @@
-MainPackage=E:\2016-2017_LP_SIL_DAM\COURS\UWP\Projet\v1.0.1\Projet_Protect_The_Planet\Projet_Protect_The_Planet\bin\x64\Release\Protect The Planet_1.0.1.0_x64.appx
-SymbolPackage=E:\2016-2017_LP_SIL_DAM\COURS\UWP\Projet\v1.0.1\Projet_Protect_The_Planet\Projet_Protect_The_Planet\AppPackages\Protect The Planet_1.0.1.0_Test\Protect The Planet_1.0.1.0_x64.appxsym
+MainPackage=C:\Users\Nicolas\Protect-The-Planet\Projet_Protect_The_Planet\Projet_Protect_The_Planet\bin\x64\Release\Protect The Planet_1.0.2.0_x64.appx
+SymbolPackage=C:\Users\Nicolas\Protect-The-Planet\Projet_Protect_The_Planet\Projet_Protect_The_Planet\AppPackages\Protect The Planet_1.0.2.0_Test\Protect The Planet_1.0.2.0_x64.appxsym
