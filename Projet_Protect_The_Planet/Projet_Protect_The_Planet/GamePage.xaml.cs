@@ -271,6 +271,8 @@ namespace Projet_Protect_The_Planet
             dispatcherTimer.Start();
         }
 
+        async
+
         /// <summary>
         /// Tick : methode exécutée a chaque fois que l'interval défin dans
         /// le timer est écoulé.
@@ -291,16 +293,19 @@ namespace Projet_Protect_The_Planet
                 case EtatJeu.enCours: verifierCollision();
                     txtScore.Text = gererScore.Score.ToString();
                     break;
-                case EtatJeu.quitter: dispatcherTimer.Stop();
+                case EtatJeu.quitter:
+                    dispatcherTimer.Stop();
                     break;
                 case EtatJeu.fin:
                     try
                     {
                         mpTheme.Pause();
-                    }catch { }
-                           
+                    }
+                    catch { }
+
                     break;
-                case EtatJeu.redemarrer: initialiserJeu();
+                case EtatJeu.redemarrer:
+                    initialiserJeu();
                     break;
                 default:
                     break;
@@ -313,7 +318,7 @@ namespace Projet_Protect_The_Planet
         /// - Controle si la menace est sortie de la fenêtre
         /// - Controle si la barre de vie n'est pas à zero
         /// </summary>
-        private void verifierCollision()
+        private async void verifierCollision()
         {
             if (lifeBar.Value == 0)
             {

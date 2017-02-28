@@ -29,21 +29,22 @@
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
         <StackPanel x:Name="panel" Background="LightGray">
-            <TextBlock x:Name="txtTitre" TextWrapping="Wrap" FontSize="72" Margin="0" HorizontalAlignment="Center" FontFamily="Calibri" FontWeight="Bold">
+            <TextBlock x:Name="txtTitre" TextWrapping="Wrap" FontSize="72" HorizontalAlignment="Center" FontFamily="Calibri" FontWeight="Bold">
                 <Run Text="Protect The Planet"/>
                 <LineBreak/>
             </TextBlock>
             <TextBlock x:Name="txtVersion" TextWrapping="Wrap" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" Text="111&#xD;&#xA;"/>
             <TextBlock x:Name="txtDeveloppeur" TextWrapping="Wrap"
                        FontSize="48" HorizontalAlignment="Center" TextAlignment="Center" FontFamily="Calibri">
-                <Run Text="Développée par "/>
+                <Run Text="Développé par "/>
                 <LineBreak/>
-                <Run Text="Orlandini Nicolas"/>
-                <Run Text=" "/>
-                <Run Text="(nicolas.orlandini@outlook.fr)"/>
+                <Run Text="Nicolas Orlandini"/>
                 <LineBreak/>
-                <Run Text="Maciolek Sebastian (se.ba95@icloud.com)"/>
+                <LineBreak/>
+                <Run Text="e-mail : nicolas.orlandini@outlook.fr"/>
             </TextBlock>
+            <TextBox x:Name="txtBody" TextWrapping="Wrap" AcceptsReturn="True" Margin="25,10,25,0" HorizontalContentAlignment="Stretch" Padding="10,10,6,5" />
+            <Button x:Name="btnSendMail" Content="Demande de contact" HorizontalAlignment="Center" VerticalAlignment="Stretch" FontFamily="Calibri" FontSize="36" Margin="0,20,0,0" Click="btnSendMail_Click"/>
         </StackPanel>
     </ScrollViewer>
 </Page>
