@@ -81,12 +81,32 @@ Trajectoire d'un objet Ellipse en cercle avec un timer de 20 ms entre chaque pos
       </Joueur> 
     </Joueurs>
     ```
+### Paramètres
+
+  ![Page Scores](/Images/Parametres.png  "Page des paramètres")
+  
+  * Les paramètres sont stocké et récupérés dans les LocalSettings
 
 ## Spécifications techniques
 
 * Système d'exploitation requis : Windows 10 / Windows 10 mobile
 * Langage de programmation : UWP (C#/XAML)
 * Orientation du terminal : Paysage
+
+## Installation
+
+1. Récupérer le projet sur votre pc Windows 10
+2. Aller dans le dossier suivant :
+   `Projet_Protect_The_Planet/Projet_Protect_The_Planet/AppPackages/Protect The Planet_1.0.2.0_Test/`
+    
+3. Clic droit sur `Add-AppDevPackage.ps1` -> Exécuter avec PowerShell 
+4. Une fenêtre PowerShell s'ouvre 
+5. Entre O puis appuyer sur Entrée 
+6. Un autre message apparaît ensuite, appuyer sur Entrée pour continuer 
+7. Autoriser PowerShell dans le Controle de compte d'utilisateur 
+8. Une autre fenêtre PowerShell apparaît, entrer U pour valider l'installation du cerficat 
+9. Le projet se déploie 
+10. Enjoy
 
 ## Contributeurs
 
