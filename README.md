@@ -114,5 +114,5 @@ Trajectoire d'un objet Ellipse en cercle avec un timer de 20 ms entre chaque pos
 
 ## Contact
 
-Vous pouvez nous donner vos retours, si jamais vous constatez un problème ou une amélioration possible, merci de nous contacter à l'adresse suivante :
+Vous pouvez me donner vos retours, si jamais vous constatez un problème ou une amélioration possible, merci de nous contacter à l'adresse suivante :
 ##### nicolas.orlandini@outlook.fr
